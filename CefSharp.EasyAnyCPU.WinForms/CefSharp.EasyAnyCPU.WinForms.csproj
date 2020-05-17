@@ -54,18 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="EasyWebbrowser.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="EasyWebbrowser.Designer.cs">
-      <DependentUpon>EasyWebbrowser.cs</DependentUpon>
-    </Compile>
     <Compile Include="StaticBrowserHandler.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="EasyWebbrowser.resx">
-      <DependentUpon>EasyWebbrowser.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
