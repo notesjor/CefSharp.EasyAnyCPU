@@ -36,12 +36,14 @@ namespace CefSharp.EasyAnyCPU
         Location = new Point(0, 0),
         Name = $"webBrowser{_browser.Count + 1}",
         TabIndex = 0,
+        /*
         BrowserSettings = new BrowserSettings
         {
-          WebSecurity = CefState.Disabled,
+          // WebSecurity = CefState.Disabled,
           FileAccessFromFileUrls = CefState.Enabled,
           UniversalAccessFromFileUrls = CefState.Enabled
         }
+        */
       };
       _browser.Add(res);
       return res;
@@ -59,7 +61,7 @@ namespace CefSharp.EasyAnyCPU
       };
       settings.CefCommandLineArgs.Add("enable-media-stream", "1");
 
-      CefSharpSettings.LegacyJavascriptBindingEnabled = true;
+      //CefSharpSettings.LegacyJavascriptBindingEnabled = true;
       CefSharpSettings.SubprocessExitIfParentProcessClosed = true;
 
       Cef.EnableHighDPISupport();
