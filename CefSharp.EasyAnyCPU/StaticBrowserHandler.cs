@@ -1,6 +1,9 @@
 ﻿#if LINUX
 #else
 #endif
+
+#region
+
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -8,6 +11,8 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 using CefSharp.WinForms;
+
+#endregion
 
 namespace CefSharp.EasyAnyCPU
 {
@@ -57,7 +62,8 @@ namespace CefSharp.EasyAnyCPU
 
       var settings = new CefSettings
       {
-        BrowserSubprocessPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "CefSharp.BrowserSubprocess.exe"),
+        BrowserSubprocessPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
+                                             "CefSharp.BrowserSubprocess.exe"),
       };
       settings.CefCommandLineArgs.Add("enable-media-stream", "1");
 
