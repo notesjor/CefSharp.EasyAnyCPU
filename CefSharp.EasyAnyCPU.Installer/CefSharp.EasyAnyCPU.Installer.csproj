@@ -49,16 +49,16 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Telerik.WinControls, Version=2024.2.514.462, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Projekte\CorpusExplorerV2\CorpusExplorer\lib\RCWF\2024.2.514.462\Telerik.WinControls.dll</HintPath>
+    <Reference Include="Telerik.WinControls, Version=2024.3.806.462, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Projekte\CorpusExplorerV2\CorpusExplorer\lib\RCWF\2024.3.806.462\Telerik.WinControls.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.Windows.Zip, Version=2024.2.426.462, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Projekte\CorpusExplorerV2\CorpusExplorer\lib\RCWF\2024.2.514.462\Telerik.Windows.Zip.dll</HintPath>
+    <Reference Include="Telerik.Windows.Zip, Version=2024.3.806.462, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Projekte\CorpusExplorerV2\CorpusExplorer\lib\RCWF\2024.3.806.462\Telerik.Windows.Zip.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="TelerikCommon, Version=2024.2.514.462, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Projekte\CorpusExplorerV2\CorpusExplorer\lib\RCWF\2024.2.514.462\TelerikCommon.dll</HintPath>
+    <Reference Include="TelerikCommon, Version=2024.3.806.462, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Projekte\CorpusExplorerV2\CorpusExplorer\lib\RCWF\2024.3.806.462\TelerikCommon.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
