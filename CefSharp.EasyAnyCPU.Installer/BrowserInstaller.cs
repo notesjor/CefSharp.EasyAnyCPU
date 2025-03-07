@@ -4,7 +4,7 @@ using System;
 using System.IO;
 using System.Net;
 using System.Reflection;
-using Telerik.WinControls.Zip.Extensions;
+using ICSharpCode.SharpZipLib.Zip;
 
 #endregion
 
@@ -33,8 +33,9 @@ namespace CefSharp.EasyAnyCPU.Installer
       using (var wc = new WebClient())
         wc.DownloadFile(url, tmp);
       var dir = Path.GetDirectoryName(path);
-
-      ZipFile.ExtractToDirectory(tmp, dir);
+      
+      var zip = new FastZip();
+      zip.ExtractZip(tmp, dir, FastZip.Overwrite.Always, null, null, null, true);
     }
 
     public static bool IsInstalled()
